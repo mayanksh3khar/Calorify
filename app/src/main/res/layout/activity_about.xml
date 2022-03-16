@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/about_title"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/agencyfb"
+            android:gravity="center"
+            android:text="@string/about_title"
+            android:textAlignment="center"
+            android:textColor="@color/monk3y_purple1"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/about_app_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/image_description"
+                app:srcCompat="@mipmap/ic_about_logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/member_1_image"
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/image_description"
+                    app:srcCompat="@mipmap/monkey" />
+
+                <TextView
+                    android:id="@+id/member_1_title"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/agencyfb"
+                    android:gravity="center_vertical"
+                    android:text="@string/about_member_1"
+                    android:textColor="@color/monk3y_purple1"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/member_1_desc"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:fontFamily="@font/agencyfb"
+                    android:text="@string/about_member_1_desc"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/monk3y_purple1"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/member_2_image"
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/image_description"
+                    app:srcCompat="@mipmap/shreyansh" />
+
+                <TextView
+                    android:id="@+id/member_2_title"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/agencyfb"
+                    android:gravity="center_vertical"
+                    android:text="@string/about_member_2"
+                    android:textColor="@color/monk3y_purple1"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/member_2_desc"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:fontFamily="@font/agencyfb"
+                    android:text="@string/about_member_2_desc"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/monk3y_purple1"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/member_3_image"
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/image_description"
+                    app:srcCompat="@mipmap/krishna" />
+
+                <TextView
+                    android:id="@+id/member_3_title"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/agencyfb"
+                    android:gravity="center_vertical"
+                    android:text="@string/about_member_3"
+                    android:textColor="@color/monk3y_purple1"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/member_3_desc"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:fontFamily="@font/agencyfb"
+                    android:text="@string/about_member_3_desc"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/monk3y_purple1"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fart"
+                android:layout_width="150dp"
+                android:layout_height="46dp"
+                android:background="@color/monk3y_purple1"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/agencyfb"
+                android:gravity="center"
+                android:onClick="fart"
+                android:text="@string/about_more"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

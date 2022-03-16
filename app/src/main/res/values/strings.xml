@@ -1,0 +1,82 @@
+<resources>
+    //MainActivity
+    <string name="app_name">Calorify</string>
+    <string name="title_login">CALORIFY</string>
+    <string name="submit">SIGN IN</string>
+    <string name="register">SIGN UP</string>
+    <string name="name_login_desc">Name</string>
+    <string name="name_hint">monkey</string>
+    <string name="pass_login_desc">Password</string>
+    <string name="pass_hint">1234</string>
+    <string name="hint_login">Forgot Password?</string>
+
+    //Menu
+    <string name="menu_title">MENU</string>
+    <string name="bmi_menu">BMI</string>
+    <string name="intake_menu">INTAKE</string>
+    <string name="output_menu">OUTPUT</string>
+    <string name="about_menu">ABOUT</string>
+
+    //BMI
+    <string name="bmi_title">BMI CALCULATOR</string>
+    <string name="bmi_height">Height: </string>
+    <string name="bmi_height_hint">in cms</string>
+    <string name="bmi_weight">Weight: </string>
+    <string name="bmi_weight_hint">in kg</string>
+    <string name="bmi_reset">RESET</string>
+    <string name="bmi_calculate">CALCULATE</string>
+
+    //About
+    <string name="about_title">ABOUT TEAM</string>
+    <string name="about_member_1">Mayank Shekhar</string>
+    <string name="about_member_1_desc">App developer, full-stack</string>
+    <string name="about_member_2">Shreyansh</string>
+    <string name="about_member_2_desc">Documentation</string>
+    <string name="about_member_3">Krishna Khawas</string>
+    <string name="about_member_3_desc">Project Manager</string>
+    <string name="about_more">DON\'T PRESS</string>
+    <string name="image_description">Image</string>
+
+    //Intake
+    <string name="intake_title">INTAKE CALCULATOR</string>
+    <string name="intake_main">MAIN FOOD ITEM</string>
+    <string-array name="intake_main_array">
+        <item>ROTI</item>
+        <item>PURI</item>
+        <item>RICE</item>
+        <item>DOSA</item>
+        <item>IDLI</item>
+    </string-array>
+    <string name="intake_main_count">MAIN FOOD COUNT</string>
+    <string name="count_hint">pcs/servings</string>
+    <string name="intake_second">SECOND FOOD ITEM</string>
+    <string-array name="intake_second_array">
+        <item>ALOO GOBI</item>
+        <item>ALOO MATAR</item>
+        <item>MIX VEG</item>
+        <item>PANEER</item>
+        <item>CHICKEN</item>
+        <item>EGG CURRY</item>
+        <item>SAMBAR</item>
+        <item>CHUTNEY</item>
+    </string-array>
+    <string name="intake_calculate">CALCULATE</string>
+
+    //Output
+    <string name="output_title">ENERGY OUTPUT</string>
+    <string name="output_activity_text">ACTIVITY NAME</string>
+    <string-array name="output_activity_array">
+        <item>WALKING</item>
+        <item>JOGGING</item>
+        <item>CYCLING</item>
+        <item>DANCING</item>
+        <item>SKIPPING</item>
+        <item>SWIMMING</item>
+    </string-array>
+    <string name="output_time_text">TIME TAKEN</string>
+    <string name="output_hrs_hint">hrs</string>
+    <string name="output_time_separator">:</string>
+    <string name="output_mins_hint">mins</string>
+
+
+</resources>

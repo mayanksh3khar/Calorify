@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intake">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/intake_title"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"
+            android:fontFamily="@font/agencyfb"
+            android:gravity="center"
+            android:text="@string/intake_title"
+            android:textAlignment="center"
+            android:textColor="@color/monk3y_purple1"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/intake_main_text"
+                android:layout_width="160dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/agencyfb"
+                android:gravity="center_vertical"
+                android:text="@string/intake_main"
+                android:textColor="@color/monk3y_purple1"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/intake_main"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/intake_main_array"
+                android:fontFamily="@font/agencyfb"
+                android:theme="@style/SpinnerTheme" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/intake_main_count_text"
+                android:layout_width="160dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/agencyfb"
+                android:gravity="center_vertical"
+                android:text="@string/intake_main_count"
+                android:textColor="@color/monk3y_purple1"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/intake_main_count"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="5"
+                android:fontFamily="@font/agencyfb"
+                android:gravity="center_horizontal"
+                android:hint="@string/count_hint"
+                android:inputType="number"
+                android:textColor="@color/purple_700"
+                android:textColorHint="@color/purple_200"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/intake_second_text"
+                android:layout_width="160dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/agencyfb"
+                android:gravity="center_vertical"
+                android:text="@string/intake_second"
+                android:textColor="@color/monk3y_purple1"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/intake_second"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/intake_second_array"
+                android:fontFamily="@font/agencyfb"
+                android:theme="@style/SpinnerTheme" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/intake_caluclate"
+            android:layout_width="150dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@color/register_button_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/agencyfb"
+            android:gravity="center"
+            android:onClick="calculate"
+            android:text="@string/intake_calculate"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/statement1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/agencyfb"
+            android:textAlignment="center"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/statement2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/agencyfb"
+            android:textAlignment="center"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/statement3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/agencyfb"
+            android:textAlignment="center"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
