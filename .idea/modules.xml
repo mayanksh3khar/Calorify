@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calorify.iml" filepath="$PROJECT_DIR$/.idea/modules/Calorify.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Calorify.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Calorify.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Calorify.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Calorify.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Calorify.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Calorify.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Calorify.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Calorify.app.unitTest.iml" />
     </modules>
   </component>
 </project>

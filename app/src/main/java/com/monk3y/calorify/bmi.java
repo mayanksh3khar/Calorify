@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 
 public class bmi extends AppCompatActivity {
 
-    @SuppressLint("SetTextI18n")
+    @SuppressLint({"SetTextI18n", "ResourceType"})
     public void reset(View view)
     {
         EditText height = findViewById(R.id.height);
@@ -23,7 +23,7 @@ public class bmi extends AppCompatActivity {
         hint.setText("Cleared");
         hint.setTextColor(this.getResources().getColor(R.color.monk3y_purple1));
         TextView title = findViewById(R.id.bmi_title);
-        title.setText("BMI CALCULATOR");
+        title.setText(this.getResources().getString(R.string.bmi_title));
     }
 
     @SuppressLint({"SetTextI18n", "DefaultLocale"})
@@ -65,7 +65,6 @@ public class bmi extends AppCompatActivity {
             long_answer.append("obese.");
         hint.setText(long_answer.toString());
 
-        return;
 
     }
 
